@@ -1,0 +1,11 @@
+<a routerLink="/rentals/{{rentalData.id}}">
+<div class="card bwm-card">
+  <img src="{{rentalData.image}}"  alt="" class="card-img-top">
+  <div class="car-block">
+      <h6 class="card-subtitle">{{rentalData.category}} &#183; {{rentalData.city}}</h6>
+      <h4 class="card-title">{{rentalData.title}}</h4>
+      <p class="card-text">${{rentalData.dailyRate}}&#183;- Free Cancelation</p>
+      <a href="#" class="card-link">More Info</a>
+  </div>
+</div>
+</a>
