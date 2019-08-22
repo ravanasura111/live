@@ -10,6 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { RentalService } from '../../services/rental.service';
 import { RentalDetailsComponent } from '../rental-details/rental-details.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MapModule } from '../map/map.module';
 const routes: Routes = [
     { path: 'rentals', 
       component: RentalComponent,
@@ -27,7 +28,7 @@ const routes: Routes = [
         RentalDetailsComponent,UppercasePipe
     ],
     providers:[RentalService],
-    imports: [RouterModule.forRoot(routes),CommonModule,HttpClientModule,NgPipesModule],
+    imports: [RouterModule.forRoot(routes),CommonModule,HttpClientModule,NgPipesModule,MapModule],
 })
 export class RentalModule {
 
