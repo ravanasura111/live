@@ -29,7 +29,10 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
+<<<<<<< HEAD
+=======
     "jsonwebtoken": "^8.5.1",
+>>>>>>> 07c6f6cd70ad4d8fe472abd96b1a104c77bb36ed
     "mongoose": "^5.6.9",
     "ngx-pipes": "^2.5.6",
     "rxjs": "^5.5.6",
